@@ -1,7 +1,10 @@
 <!DOCTYPE html>
+<!--W3 standard tested goes here?-->
+<!--look into licensing component to set site above par-->
 <html>
-<title>Tosha's Catering Business</title>
+<title>Catering Business Home Page</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--Have to add all the SEO components up here-->
 <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="Assets/css/ThemesFile.css">
@@ -10,8 +13,8 @@
 <body id="HomePage">
 
 
-
-<!-- Side Navigation on click -->
+<!-- Side Navigation on click (unused. to be put in porfolio if not needed)-->
+<!--
 <nav class="w3-sidenav w3-white w3-card-2 w3-animate-left" style="display:none;z-index:2" id="mySidenav">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-closenav w3-xxxlarge w3-text-theme-d2">Close
     <i class="fa fa-remove"></i>
@@ -24,6 +27,21 @@
 	<a href="#">Pricing</a>
     <a href="#">Contact</a>
 </nav>
+-->
+<!-- Script For Side Navigation (unused. to be put in porfolio if not needed)-->
+<!--
+function w3_open() {
+    var x = document.getElementById("mySidenav");
+    x.style.width = "300px";
+    x.style.textAlign = "center";
+    x.style.fontSize = "40px";
+    x.style.paddingTop = "10%";
+    x.style.display = "block";
+}
+function w3_close() {
+    document.getElementById("mySidenav").style.display = "none";
+}
+-->
 
 
 
@@ -33,14 +51,14 @@
   <li class="w3-hide-medium w3-hide-large w3-opennav w3-right">
     <a class="w3-hover-white w3-theme-d1" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
   </li>
-    <li><a href="#" class="w3-theme-d1"><i class="fa fa-home w3-margin-right"></i>Tosha's Catering Business</a></li>
-    <li class="w3-hide-small"><a href="#" class="w3-hover-white">About</a></li>
-    <li class="w3-hide-small"><a href="#" class="w3-hover-white">Services and Venues</a></li>
-    <li class="w3-hide-small"><a href="#" class="w3-hover-white">Menu Ideas</a></li>
-    <li class="w3-hide-small"><a href="#" class="w3-hover-white">Gallery</a></li>
-    <li class="w3-hide-small"><a href="#" class="w3-hover-white">Testimonials</a></li>
-    <li class="w3-hide-small"><a href="#" class="w3-hover-white">Pricing</a></li>
-    <li class="w3-hide-small"><a href="#" class="w3-hover-white">Contact</a></li>
+    <li><a href="index.html" class="w3-theme-d1"><i class="fa fa-home w3-margin-right"></i>Catering Business</a></li>
+    <li class="w3-hide-small"><a href="about.html" class="w3-hover-white">About</a></li>
+    <li class="w3-hide-small"><a href="servicesvenues.html" class="w3-hover-white">Services and Venues</a></li>
+    <li class="w3-hide-small"><a href="menu.html" class="w3-hover-white">Menu Ideas</a></li>
+    <li class="w3-hide-small"><a href="gallery.html" class="w3-hover-white">Gallery</a></li>
+    <li class="w3-hide-small"><a href="testimonials.html" class="w3-hover-white">Testimonials</a></li>
+    <li class="w3-hide-small"><a href="pricing.html" class="w3-hover-white">Pricing</a></li>
+    <li class="w3-hide-small"><a href="contact.html" class="w3-hover-white">Contact</a></li>
 <!-- unused atm to be removed and put in portfolio
  <li class="w3-hide-small w3-dropdown-hover">
     <a href="javascript:void(0);" title="Notifications">Dropdown <i class="fa fa-caret-down"></i></a>     
@@ -51,11 +69,9 @@
     </div>
  </li>
 -->	  
-    <li class="w3-hide-small w3-right"><a href="#" class="w3-theme-d1"><i class="fa fa-address-card-o"> Call or Text: 865-680-9030</i></a></li>
+    <li class="w3-hide-small w3-right"><a href="#" class="w3-theme-d1"><i class="fa fa-address-card-o"> Call or Text: ###-###-####</i></a></li>
  </ul>
-	  
-	  
-	  
+ 
 <!--unused (want to maybe add an actual search funtion or just portfolio)
   </li>
   <li class="w3-hide-small w3-right"><a href="#" class="w3-hover-theme-d1" title="Search"><i class="fa fa-search"></i></a></li>
@@ -65,23 +81,24 @@
  
  
   <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-hide w3-hide-large w3-hide-medium">
+  <div id="navSmall" class="w3-hide w3-hide-large w3-hide-medium">
     <ul class="w3-navbar w3-left-align w3-theme-d2">
-      <li><a href="#">About</a></li>
-      <li><a href="#">Services and Venues</a></li>
-      <li><a href="#">Menu Ideas</a></li>
-      <li><a href="#">Gallery</a></li>
-      <li><a href="#">Testimonials</a></li>
-	  <li><a href="#">Pricing</a></li>
-      <li><a href="#">Contact</a></li>
+	  <li><a href="index.html">Home Page</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="servicevenue.html">Services and Venues</a></li>
+      <li><a href="menu.html">Menu Ideas</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="testimonials.html">Testimonials</a></li>
+	  <li><a href="pricing.html">Pricing</a></li>
+      <li><a href="contact.html">Contact</a></li>
     </ul>
   </div>
 </div>
 
 
 
-<!--no idea why ned this but keeps baking pic from going up into top-->
-<!-- Image Header -->
+<!--no idea why need this but keeps baking pic from going up into top(replace with a better buffer needed for final)-->
+<!-- Image Header -->  
 <div class="w3-display-container w3-animate-opacity">
   <img src="/w3images/sailboat.jpg" alt="baking background" style="width:100%;height:100%;">
   <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
@@ -97,10 +114,16 @@
   </div>
   
  
+  <!--need header for company name displayed bigger-->
+  <!--contact info and logo displayed nicely-->
   
   
+  <!--rev slider for displaying some of food she makes-->
   
+  <!--object for site search like on "ChefsCateringHomePage2" in reference folder-->
   
+  <!--Footer with simplified contact form maybe-->
+  <!--also has made by section, terms of use, copyrighted,etc -->
   
   
   
@@ -108,23 +131,11 @@
 </body>
 
 
-<!-- Script For Side Navigation -->
+<!--Scripts-->
 <script>
-function w3_open() {
-    var x = document.getElementById("mySidenav");
-    x.style.width = "300px";
-    x.style.textAlign = "center";
-    x.style.fontSize = "40px";
-    x.style.paddingTop = "10%";
-    x.style.display = "block";
-}
-function w3_close() {
-    document.getElementById("mySidenav").style.display = "none";
-}
-
 // Used to toggle the menu on smaller screens when clicking on the menu button
 function openNav() {
-    var x = document.getElementById("navDemo");
+    var x = document.getElementById("navSmall");
     if (x.className.indexOf("w3-show") == -1) {
         x.className += " w3-show";
     } else { 
