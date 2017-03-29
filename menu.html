@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<!--W3 standard tested goes here?-->
+<!--look into licensing component to set site above par-->
+<html>
+<title>Catering Business Menu Page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--Have to add all the SEO components up here-->
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="Assets/css/ThemesFile.css">
+
+<!--Body Begins here-->
+<body id="MenuPage">
+
+
+
+
+<!-- Navbar -->
+<div class="w3-top">
+ <ul class="w3-navbar w3-theme-d2 w3-left-align">
+  <li class="w3-hide-medium w3-hide-large w3-opennav w3-right">
+    <a class="w3-hover-white w3-theme-d1" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  </li>
+    <li><a href="index.html" class="w3-theme-d1"><i class="fa fa-home w3-margin-right"></i>Catering Business</a></li>
+    <li class="w3-hide-small"><a href="about.html" class="w3-hover-white">About</a></li>
+    <li class="w3-hide-small"><a href="servicesvenues.html" class="w3-hover-white">Services and Venues</a></li>
+    <li class="w3-hide-small"><a href="menu.html" class="w3-hover-white">Menu Ideas</a></li>
+    <li class="w3-hide-small"><a href="gallery.html" class="w3-hover-white">Gallery</a></li>
+    <li class="w3-hide-small"><a href="testimonials.html" class="w3-hover-white">Testimonials</a></li>
+    <li class="w3-hide-small"><a href="pricing.html" class="w3-hover-white">Pricing</a></li>
+    <li class="w3-hide-small"><a href="contact.html" class="w3-hover-white">Contact</a></li>
+    <li class="w3-hide-small w3-right"><a href="#" class="w3-theme-d1"><i class="fa fa-address-card-o"> Call or Text: ###-###-####</i></a></li>
+ </ul>
+ 
+  <!-- Navbar on small screens -->
+  <div id="navSmall" class="w3-hide w3-hide-large w3-hide-medium">
+    <ul class="w3-navbar w3-left-align w3-theme-d2">
+	  <li><a href="index.html">Home Page</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="servicevenue.html">Services and Venues</a></li>
+      <li><a href="menu.html">Menu Ideas</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="testimonials.html">Testimonials</a></li>
+	  <li><a href="pricing.html">Pricing</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</div>
+
+
+
+
+
+
+<!--image banner(might use as back ground to keep same style)
+ <div class="w3-display-container w3-text-theme">
+    <img src="Assets/imgs/Brown-Baking-Bottom-3045-2000.jpg" alt="Baking Background" style="width:100%">
+  </div>
+ -->
+
+ <!--add paragraph about how always changing and willing to take requests as able-->
+ 
+ <!--change this to match how did on venues but it will offer menu ideas for each type... maybe .pdf of a menu?-->
+  <!-- About Section -->
+<div class="w3-container w3-padding-128" id="about">
+  <h3 class="w3-center">ABOUT THE COMPANY</h3>
+  <p class="w3-center w3-large">Key features of our company</p>
+  <p class="w3-center w3-large">Maybe a paragraph here about company</p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter">
+      <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
+      <p class="w3-large">Responsive</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Passion</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Design</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Support</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+    </div>
+  </div>
+</div>
+  
+  
+
+<!--possibly keep this and mke row downward that displays items for each menu idea option. have to work on spacing though-->
+<!-- Work Section -->
+<div class="w3-container w3-padding-128" id="work">
+  <h3 class="w3-center">OUR WORK</h3>
+  <p class="w3-center w3-large">What we've done for people</p>
+
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-col m3">
+      <img src="/w3images/p1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="pic of a item served">
+    </div>
+    <div class="w3-col m3">
+      <img src="/w3images/p2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="pic of a item served">
+    </div>
+    <div class="w3-col m3">
+      <img src="/w3images/p3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="pic of a item served">
+    </div>
+    <div class="w3-col m3">
+      <img src="/w3images/p4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="pic of a item served">
+    </div>
+  </div>
+  <!--split for second row of items to display-->
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col m3">
+      <img src="/w3images/p5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="pic of a item served">
+    </div>
+    <div class="w3-col m3">
+      <img src="/w3images/p6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="pic of a item served">
+    </div>
+    <div class="w3-col m3">
+      <img src="/w3images/p7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="pic of a item served">
+    </div>
+    <div class="w3-col m3">
+      <img src="/w3images/p8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="pic of a item served">
+    </div>
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-closebtn w3-text-white w3-opacity w3-hover-opacity-off w3-xxlarge w3-container w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!--paragraph about if further questions to contact us as we can to do new things as requested. add link to contact page of just add simple contact form here-->
+
+ </body>
+ 
+ 
+  <!--(Need to work on and setup correctly)--> 
+  <!--Footer with simplified contact form maybe-->
+  <!--also has made by section, terms of use, copyrighted,etc -->
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <div class="w3-left w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <p class="w3-right">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css&nbsp;&nbsp;</a></p>
+</footer>
+
+
+
+
+<!-- Scripts-->
+<script>
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+    var x = document.getElementById("navSmall");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
