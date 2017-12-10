@@ -1,45 +1,49 @@
 <!DOCTYPE html>
-<!--W3 standard tested goes here?-->
-<!--look into licensing component to set site above par-->
+<!-- W3 standard tested goes here? -->
+<!-- look into licensing component to set site above par -->
 <html>
-<title>Catering Business Home Page</title>
+<title>Peace of Cake Home</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!--Have to add all the SEO components up here-->
+<!-- Have to add all the SEO components up here -->
+
+<!-- External Styling -->
 <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<!-- Personal CSS Files-->
 <link rel="stylesheet" href="Assets/css/ThemesFile.css">
+<link rel="stylesheet" href="Assets/css/Style.css">
+<!-- Site Scripts -->
+<script src="Assets/javascript/js-scripts.js" type="text/javascript"></script>
 
-<!--Body Begins here-->
+
+<!-- Body Begins Here -->
 <body id="HomePage">
-
 
 
 <!-- Navbar -->
 <div class="w3-top">
- <ul class="w3-navbar w3-theme-d2 w3-left-align">
-  <li class="w3-hide-medium w3-hide-large w3-opennav w3-right">
-    <a class="w3-hover-white w3-theme-d1" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
-  </li>
-    <li><a href="index.html" class="w3-theme-d1"><i class="fa fa-home w3-margin-right"></i>Catering Business</a></li>
-    <li class="w3-hide-small"><a href="about.html" class="w3-hover-white">About</a></li>
-    <li class="w3-hide-small"><a href="servicesvenues.html" class="w3-hover-white">Services and Venues</a></li>
-    <li class="w3-hide-small"><a href="menu.html" class="w3-hover-white">Menu Ideas</a></li>
-    <li class="w3-hide-small"><a href="gallery.html" class="w3-hover-white">Gallery</a></li>
-    <li class="w3-hide-small"><a href="testimonials.html" class="w3-hover-white">Testimonials</a></li>
-    <li class="w3-hide-small"><a href="pricing.html" class="w3-hover-white">Pricing</a></li>
-    <li class="w3-hide-small"><a href="contact.html" class="w3-hover-white">Contact</a></li>  
-    <li class="w3-hide-small w3-right"><a href="#" class="w3-theme-d1"><i class="fa fa-address-card-o"> Call or Text: ###-###-####</i></a></li>
- </ul>
-
+  <ul class="w3-navbar w3-theme-d2 w3-left-align">
+    <li class="w3-hide-medium w3-hide-large w3-opennav w3-left">
+      <a class="w3-hover-grey w3-theme-d1" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+    </li>
+    <li class="w3-hide-small w3-mobile"><a href="index.html" class="w3-theme-d1 w3-hover-light-grey"><i class="fa fa-home w3-margin-right"></i>Peace of Cake</a></li>
+    <li class="w3-hide-small w3-mobile"><a href="about.html" class="w3-hover-light-grey">About</a></li>
+    <li class="w3-hide-small w3-mobile"><a href="servicesvenues.html" class="w3-hover-light-grey">Services and Venues</a></li>
+    <li class="w3-hide-small w3-mobile"><a href="menu.html" class="w3-hover-light-grey">Menu Ideas</a></li>
+    <li class="w3-hide-small w3-mobile"><a href="gallery.html" class="w3-hover-light-grey">Gallery</a></li>
+    <li class="w3-hide-small w3-mobile"><a href="testimonials.html" class="w3-hover-light-grey">Testimonials</a></li>
+    <li class="w3-hide-small w3-mobile"><a href="pricing.html" class="w3-hover-light-grey">Pricing</a></li>
+    <li class="w3-hide-small w3-mobile"><a href="contact.html" class="w3-hover-light-grey">Contact</a></li>  
+    <li class="w3-hide-small w3-mobile w3-right"><a href="contact.html" class="w3-theme-d1 w3-hover-light-grey"><i class="fa fa-address-card-o"> Call or Text: 865-###-####</i></a></li>
+  </ul>
  
- 
- 
-  <!-- Navbar on small screens -->
+  <!-- Navbar on Small Screens -->
   <div id="navSmall" class="w3-hide w3-hide-large w3-hide-medium">
     <ul class="w3-navbar w3-left-align w3-theme-d2">
 	  <li><a href="index.html">Home Page</a></li>
       <li><a href="about.html">About</a></li>
-      <li><a href="servicevenue.html">Services and Venues</a></li>
+      <li><a href="servicesvenues.html">Services and Venues</a></li>
       <li><a href="menu.html">Menu Ideas</a></li>
       <li><a href="gallery.html">Gallery</a></li>
       <li><a href="testimonials.html">Testimonials</a></li>
@@ -50,68 +54,147 @@
 </div>
 
 
+<!-- Header with Image -->
+<header class="bgimg w3-display-container" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag w3-theme-d1">Cakes and Catering</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:90px">Peace of Cake</span><!--need to make more responsive for mobile-->
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white">Sevierville, TN</span>
+  </div>
+</header>
 
-<!--no idea why need this but keeps baking pic from going up into top(replace with a better buffer needed for final)-->
-<!-- Image Header -->  
-<div class="w3-display-container w3-animate-opacity">
-  <img src="/w3images/sailboat.jpg" alt="baking background" style="width:100%;height:100%;">
-  <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
-    <button onclick="document.getElementById('id01').style.display='block'" class="w3-btn w3-xlarge w3-theme-d1 w3-hover-theme-d1" title="Go To W3.CSS">LEARN W3.CSS</button>
+
+<!-- Add a Background Color and Large Text to the Whole Page -->
+<div class="w3-sand w3-large">
+
+<!-- First Photo Grid -->
+<div class="w3-padding-16">
+  <div class="w3-third w3-container w3-margin-bottom">
+    <img src="Assets/imgs/cake1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="pic of a item served">
+    <div class="w3-container w3-white">
+      <p><b>Lorem Ipsum</b></p>
+      <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+    </div>
+  </div>
+  <div class="w3-third w3-container w3-margin-bottom">
+    <img src="Assets/imgs/cake1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="pic of a item served">
+    <div class="w3-container w3-white">
+      <p><b>Lorem Ipsum</b></p>
+      <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+    </div>
+  </div>
+  <div class="w3-third w3-container">
+    <img src="Assets/imgs/cake1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="pic of a item served">
+    <div class="w3-container w3-white">
+      <p><b>Lorem Ipsum</b></p>
+      <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+    </div>
+  </div>
+</div>
+  
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:1500px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">Our Purpose</span></h5>
+    <p>The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <p>In addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.</p>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i>"Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.</i></p>
+      <p>Chef, Coffeeist and Owner: Liam Brown</p>
+    </div>
+	<div class="w3-center">
+    <img src="Assets/imgs/pie1.jpg" style="width:100%;max-width:1000px" class="w3-margin-top w3-hover-opacity" onclick="onClick(this)" alt="pic of a item served">
+    </div>
   </div>
 </div>
 
 
+<!-- Testimonial Section <needed> -->
 
-<!--image banner-->
- <div class="w3-display-container w3-text-theme">
-    <img src="Assets/imgs/Brown-Baking-Bottom-3045-2000.jpg" alt="Baking Background" style="width:100%">
+
+<!-- Contact/Area Container -->
+<div class="w3-container" id="where" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:1500px">
+    <p><span class="w3-tag w3-theme-d1">FYI!</span> We bake cakes for weddings, birthdays, or any other special occasions. We also offer catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+    <p><strong>Contact Us</strong> by phone 865-###-#### and email catering@catering.com, or you can send us a message here:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name/Subject" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" name="Email"></p>
+      <p><textarea class="w3-input w3-border" style="resize:none" placeholder="Message"required name="Message"></textarea></p>
+	  <p><input class="w3-check" type="checkbox">I want to be updated on specials!</p>
+      <p><button class="w3-button w3-padding-16 w3-theme-d1" type="submit">SEND MESSAGE</button></p>
+
+    </form>
   </div>
+</div>
+
+
+<!-- Second Photo Grid -->
+<div class="w3-row-padding">
+  <div class="w3-third w3-container w3-margin-bottom">
+    <img src="Assets/imgs/cake1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="pic of a item served">
+    <div class="w3-container w3-white">
+      <p><b>Lorem Ipsum</b></p>
+      <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+    </div>
+  </div>
+  <div class="w3-third w3-container w3-margin-bottom">
+    <img src="Assets/imgs/pie1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="pic of a item served">
+    <div class="w3-container w3-white">
+      <p><b>Lorem Ipsum</b></p>
+      <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+    </div>
+  </div>
+  <div class="w3-third w3-container">
+    <img src="Assets/imgs/cake1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="pic of a item served">
+    <div class="w3-container w3-white">
+      <p><b>Lorem Ipsum</b></p>
+      <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+    </div>
+  </div>
+</div>
   
+  
+<!-- Modal for Full Size Images on Click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-closebtn w3-text-white w3-opacity w3-hover-opacity-off w3-xxlarge w3-container w3-display-topright" title="Close Modal Image">X</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-48">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+  
+<!-- End Page Content -->
+</div>
+
  
-  <!--need header for company name displayed bigger-->
-  <!--contact info and logo displayed nicely-->
-  
-  
-  <!--rev slider for displaying some of food she makes-->
-  
-  <!--object for site search like on "ChefsCateringHomePage2" in reference folder-->
-  
-  <!--Footer with simplified contact form maybe-->
-  <!--also has made by section, terms of use, copyrighted,etc -->
-  
-  
-  
-  
+<!-- End Body -->
 </body>
 
-	
-  <!--(Need to work on and setup correctly)--> 
-  <!--Footer with simplified contact form maybe-->
-  <!--also has made by section, terms of use, copyrighted,etc -->
 
 <!-- Footer -->
-<footer class="w3-center w3-black w3-padding-64">
-  <div class="w3-left w3-xlarge w3-section">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
+<div class="w3-cell-row w3-theme-d2">
+  <div class="w3-container w3-cell w3-left w3-theme-d2">
+    <p class="w3-cell-top">
+	<i class="fa fa-facebook-official w3-hover-opacity w3-xlarge"></i>
+    <i class="fa fa-instagram w3-hover-opacity w3-xlarge"></i>
+    <i class="fa fa-snapchat w3-hover-opacity w3-xlarge"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity w3-xlarge"></i>
+    <i class="fa fa-twitter w3-hover-opacity w3-xlarge"></i>
+    <i class="fa fa-linkedin w3-hover-opacity w3-xlarge"></i>
+	<br><a href="#Homepage" class="w3-hover-opacity">Return to Top</a>
+	</p>
   </div>
-  <p class="w3-right">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css&nbsp;&nbsp;</a></p>
-</footer>
-
-
-<!--Scripts-->
-<script>
-// Used to toggle the menu on smaller screens when clicking on the menu button
-function openNav() {
-    var x = document.getElementById("navSmall");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else { 
-        x.className = x.className.replace(" w3-show", "");
-    }
-}
-</script>
+  <div class="w3-container w3-cell w3-right w3-theme-d2">
+  	<p class="w3-cell">Peace of Cake &copy; 2017 All Rights Reserved&nbsp;&nbsp;
+	<br><a href="" class="w3-hover-opacity">Terms of Use</a>&nbsp;&nbsp;&nbsp;<a href="" class="w3-hover-opacity">Privacy Policy</a>
+	<br>Created by: <a href="https://www.linkedin.com/in/dustinledbetter/" class="w3-hover-opacity">Dustin Ledbetter</a>
+	</p>
+  </div>
+</div>
