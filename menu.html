@@ -1,43 +1,60 @@
+<!-- God First -->
 <!DOCTYPE html>
-<!--W3 standard tested goes here?-->
-<!--look into licensing component to set site above par-->
+<!-- W3 standard tested goes here -->
+
+
+<!-- HTML Begins Here -->
 <html>
-<title>Catering Business Menu Page</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--Have to add all the SEO components up here-->
-<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="Assets/css/ThemesFile.css">
-
-<!--Body Begins here-->
-<body id="MenuPage">
 
 
+<!-- Head Section -->
+<head>
+  <title>Peace of Cake Menu</title>
+  <!-- Meta Tags -->
+  <meta charset="UTF-8">
+  <meta name="description" content="sentence about site for those googling to see">
+  <meta name="keywords" content="working on these">
+  <meta name="author" content="Dustin Ledbetter">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- External Styling -->
+  <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+  <!-- Personal CSS Files -->
+  <link rel="stylesheet" href="Assets/css/ThemesFile.css">
+  <link rel="stylesheet" href="Assets/css/Style.css">
+  <!-- Site Scripts -->
+  <script src="Assets/javascript/js-scripts.js" type="text/javascript"></script>
+</head>
+
+
+<!--Body Begins Here -->
+<body id="menuPage">
 
 
 <!-- Navbar -->
-<div class="w3-top">
- <ul class="w3-navbar w3-theme-d2 w3-left-align">
-  <li class="w3-hide-medium w3-hide-large w3-opennav w3-right">
-    <a class="w3-hover-white w3-theme-d1" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
-  </li>
-    <li><a href="index.html" class="w3-theme-d1"><i class="fa fa-home w3-margin-right"></i>Catering Business</a></li>
-    <li class="w3-hide-small"><a href="about.html" class="w3-hover-white">About</a></li>
-    <li class="w3-hide-small"><a href="servicesvenues.html" class="w3-hover-white">Services and Venues</a></li>
-    <li class="w3-hide-small"><a href="menu.html" class="w3-hover-white">Menu Ideas</a></li>
-    <li class="w3-hide-small"><a href="gallery.html" class="w3-hover-white">Gallery</a></li>
-    <li class="w3-hide-small"><a href="testimonials.html" class="w3-hover-white">Testimonials</a></li>
-    <li class="w3-hide-small"><a href="pricing.html" class="w3-hover-white">Pricing</a></li>
-    <li class="w3-hide-small"><a href="contact.html" class="w3-hover-white">Contact</a></li>
-    <li class="w3-hide-small w3-right"><a href="#" class="w3-theme-d1"><i class="fa fa-address-card-o"> Call or Text: ###-###-####</i></a></li>
- </ul>
+<div id="navBig" class="w3-top">
+  <ul class="w3-navbar w3-theme-d2 w3-left-align">
+    <li class="w3-hide-medium w3-hide-large w3-opennav w3-left">
+      <a class="w3-hover-grey w3-theme-d1" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+    </li>
+    <li class="w3-hide-small w3-mobile"><a href="index.html" class="w3-theme-d1 w3-hover-light-grey"><i class="fa fa-home w3-margin-right"></i>Peace of Cake</a></li>
+    <li class="w3-hide-small w3-mobile"><a href="about.html" class="w3-hover-light-grey">About</a></li>
+    <li class="w3-hide-small w3-mobile"><a href="servicesvenues.html" class="w3-hover-light-grey">Services and Venues</a></li>
+    <li class="w3-hide-small w3-mobile"><a href="menu.html" class="w3-hover-light-grey">Menu Ideas</a></li>
+    <li class="w3-hide-small w3-mobile"><a href="gallery.html" class="w3-hover-light-grey">Gallery</a></li>
+    <li class="w3-hide-small w3-mobile"><a href="testimonials.html" class="w3-hover-light-grey">Testimonials</a></li>
+    <li class="w3-hide-small w3-mobile"><a href="pricing.html" class="w3-hover-light-grey">Pricing</a></li>
+    <li class="w3-hide-small w3-mobile"><a href="contact.html" class="w3-hover-light-grey">Contact</a></li>  
+    <li class="w3-hide-small w3-mobile w3-right"><a href="contact.html" class="w3-theme-d1 w3-hover-light-grey"><i class="fa fa-address-card-o"> Call or Text: 865-###-####</i></a></li>
+  </ul>
  
-  <!-- Navbar on small screens -->
+  <!-- Navbar on Small Screens -->
   <div id="navSmall" class="w3-hide w3-hide-large w3-hide-medium">
     <ul class="w3-navbar w3-left-align w3-theme-d2">
 	  <li><a href="index.html">Home Page</a></li>
       <li><a href="about.html">About</a></li>
-      <li><a href="servicevenue.html">Services and Venues</a></li>
+      <li><a href="servicesvenues.html">Services and Venues</a></li>
       <li><a href="menu.html">Menu Ideas</a></li>
       <li><a href="gallery.html">Gallery</a></li>
       <li><a href="testimonials.html">Testimonials</a></li>
@@ -48,116 +65,146 @@
 </div>
 
 
+<!-- Page Content Begins Here (Add Background Color and Large Text to the Whole Page) -->
+<div id="background" class="w3-sand w3-large">
 
 
-
-
-<!--image banner(might use as back ground to keep same style)
- <div class="w3-display-container w3-text-theme">
-    <img src="Assets/imgs/Brown-Baking-Bottom-3045-2000.jpg" alt="Baking Background" style="width:100%">
+<!-- Menu Options Section -->
+<div id="typesMenu" class="w3-container" id="types">
+  <h3 class="w3-center">Here are some menu ideas from past venues:</h3>
+  <p class="w3-center w3-large">We can add or change to any needs requested</p>
+  <div class="w3-center"><a href="Assets/menu/CompleteMenuOptionsPeaceOfCake.pdf">Complete Menu Options in PDF</a></div>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <!-- Wedding Section -->
+	<div class="w3-quarter">
+	  <p class="w3-xxlarge w3-border-bottom w3-border-light-greyw3-padding-16">Weddings</p>
+      <img src="Assets/imgs/pie1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="pic of a item served">
+      <div id="Cakes" style="display:block;" class="w3-container menu w3-padding-48 w3-card w3-white">
+        <h5>Bread Basket</h5>
+        <p class="w3-text-grey">Assortment of fresh baked fruit breads and muffins 5.50</p><br>
+    
+        <h5>Honey Almond Granola with Fruits</h5>
+        <p class="w3-text-grey">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p><br>
+    
+        <h5>Belgian Waffle</h5>
+        <p class="w3-text-grey">Vanilla flavored batter with malted flour 7.50</p><br>
+    
+        <h5>Scrambled eggs</h5>
+        <p class="w3-text-grey">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p><br>
+    
+        <h5>Blueberry Pancakes</h5>
+        <p class="w3-text-grey">With syrup, butter and lots of berries 8.50</p><br>
+        <a href="Assets/menu/WeddingMenuIdeasPeaceOfCake.pdf">Weddings Menu in PDF</a>
+      </div>
+    </div>
+	<!-- Graduation Section -->
+    <div class="w3-quarter">
+	  <p class="w3-xxlarge w3-border-bottom w3-border-light-greyw3-padding-16">Graduations</p>
+      <img src="Assets/imgs/pie1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="pic of a item served">
+      <div id="Cakes" style="display:block;" class="w3-container menu w3-padding-48 w3-card w3-white">
+        <h5>Bread Basket</h5>
+        <p class="w3-text-grey">Assortment of fresh baked fruit breads and muffins 5.50</p><br>
+    
+        <h5>Honey Almond Granola with Fruits</h5>
+        <p class="w3-text-grey">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p><br>
+    
+        <h5>Belgian Waffle</h5>
+        <p class="w3-text-grey">Vanilla flavored batter with malted flour 7.50</p><br>
+    
+        <h5>Scrambled eggs</h5>
+        <p class="w3-text-grey">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p><br>
+    
+        <h5>Blueberry Pancakes</h5>
+        <p class="w3-text-grey">With syrup, butter and lots of berries 8.50</p><br>
+        <a href="Assets/menu/GraduationMenuIdeasPeaceOfCake.pdf">Graduations Menu in PDF</a>
+      </div>
+    </div>
+	<!-- Company Party Section -->
+    <div class="w3-quarter">
+	  <p class="w3-xxlarge w3-border-bottom w3-border-light-greyw3-padding-16">Company Parties</p>
+      <img src="Assets/imgs/pie1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="pic of a item served">
+      <div id="Cakes" style="display:block;" class="w3-container menu w3-padding-16 w3-card w3-white">
+        <a href="Assets/menu/CompanyPartyMenuIdeasPeaceOfCake.pdf">Company Parties Menu in PDF</a><br><br>
+		<h5>Bread Basket</h5>
+        <p class="w3-text-grey"></p><br>
+    
+        <h5>Honey Almond Granola with Fruits</h5>
+        <p class="w3-text-grey"></p><br>
+    
+        <h5>Belgian Waffle</h5>
+        <p class="w3-text-grey"></p><br>
+    
+        <h5>Scrambled eggs</h5>
+        <p class="w3-text-grey"></p><br>
+    
+        <h5>Blueberry Pancakes</h5>
+        <p class="w3-text-grey"></p>
+      </div>
+    </div>
+	<!-- Other Section -->
+    <div class="w3-quarter">
+	  <p class="w3-xxlarge w3-border-bottom w3-border-light-greyw3-padding-16">Other</p>
+      <img src="Assets/imgs/pie1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="pic of a item served">
+      <div id="Cakes" style="display:block;" class="w3-container menu w3-padding-16 w3-card w3-white">
+        <a href="Assets/menu/OtherMenuIdeasPeaceOfCake.pdf">Other Menu Menu in PDF</a><br><br>
+		<h5>Bread Basket</h5>
+        <p class="w3-text-grey"></p><br>
+    
+        <h5>Honey Almond Granola with Fruits</h5>
+        <p class="w3-text-grey"></p><br>
+    
+        <h5>Belgian Waffle</h5>
+        <p class="w3-text-grey"></p><br>
+    
+        <h5>Scrambled eggs</h5>
+        <p class="w3-text-grey"></p><br>
+    
+        <h5>Blueberry Pancakes</h5>
+        <p class="w3-text-grey"></p>
+      </div>
+    </div>
   </div>
- -->
-
- <!--add paragraph about how always changing and willing to take requests as able-->
- 
- <!--change this to match how did on venues but it will offer menu ideas for each type... maybe .pdf of a menu?-->
-  <!-- About Section -->
-<div class="w3-container w3-padding-128" id="about">
-  <h3 class="w3-center">ABOUT THE COMPANY</h3>
-  <p class="w3-center w3-large">Key features of our company</p>
-  <p class="w3-center w3-large">Maybe a paragraph here about company</p>
 </div>
   
-  
 
-<!--possibly keep this and mke row downward that displays items for each menu idea option. have to work on spacing though-->
-<!-- Work Section -->
-<div class="w3-container w3-padding-128" id="work">
-  <h3 class="w3-center">OUR WORK</h3>
-  <p class="w3-center w3-large">What we've done for people</p>
-
-  <div class="w3-row-padding" style="margin-top:64px">
-    <div class="w3-col m3">
-      <img src="/w3images/p1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="pic of a item served">
-    </div>
-    <div class="w3-col m3">
-      <img src="/w3images/p2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="pic of a item served">
-    </div>
-    <div class="w3-col m3">
-      <img src="/w3images/p3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="pic of a item served">
-    </div>
-    <div class="w3-col m3">
-      <img src="/w3images/p4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="pic of a item served">
-    </div>
-  </div>
-  <!--split for second row of items to display-->
-  <div class="w3-row-padding w3-section">
-    <div class="w3-col m3">
-      <img src="/w3images/p5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="pic of a item served">
-    </div>
-    <div class="w3-col m3">
-      <img src="/w3images/p6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="pic of a item served">
-    </div>
-    <div class="w3-col m3">
-      <img src="/w3images/p7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="pic of a item served">
-    </div>
-    <div class="w3-col m3">
-      <img src="/w3images/p8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="pic of a item served">
-    </div>
-  </div>
-</div>
-
-<!-- Modal for full size images on click-->
+<!-- Modal for Full Size Images on Click -->
 <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
-  <span class="w3-closebtn w3-text-white w3-opacity w3-hover-opacity-off w3-xxlarge w3-container w3-display-topright" title="Close Modal Image">×</span>
+  <span class="w3-closebtn w3-text-white w3-opacity w3-hover-opacity-off w3-xxlarge w3-container w3-display-topright" title="Close Modal Image">X</span>
   <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
     <img id="img01" class="w3-image">
     <p id="caption" class="w3-opacity w3-large"></p>
   </div>
 </div>
 
-<!--paragraph about if further questions to contact us as we can to do new things as requested. add link to contact page of just add simple contact form here-->
 
- </body>
+<!-- End Page Content -->
+</div>
+
+
+<!-- End Body -->
+</body>
  
  
-  <!--(Need to work on and setup correctly)--> 
-  <!--Footer with simplified contact form maybe-->
-  <!--also has made by section, terms of use, copyrighted,etc -->
-
 <!-- Footer -->
-<footer class="w3-center w3-black w3-padding-64">
-  <div class="w3-left w3-xlarge w3-section">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
+<div id="footer" class="w3-cell-row w3-theme-d2">
+  <div class="w3-container w3-cell w3-left w3-theme-d2">
+    <p class="w3-cell-top">
+	<i class="fa fa-facebook-official w3-hover-opacity w3-xlarge"></i>
+    <i class="fa fa-instagram w3-hover-opacity w3-xlarge"></i>
+    <i class="fa fa-snapchat w3-hover-opacity w3-xlarge"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity w3-xlarge"></i>
+    <i class="fa fa-twitter w3-hover-opacity w3-xlarge"></i>
+    <i class="fa fa-linkedin w3-hover-opacity w3-xlarge"></i>
+	<br><a href="#menuPage" class="w3-hover-opacity">Return to Top</a>
+	</p>
   </div>
-  <p class="w3-right">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css&nbsp;&nbsp;</a></p>
-</footer>
+  <div class="w3-container w3-cell w3-right w3-theme-d2">
+  	<br><p class="w3-cell">Peace of Cake &copy; 2018 All Rights Reserved&nbsp;&nbsp;
+	<br><a href="" class="w3-hover-opacity">Terms of Use</a>&nbsp;&nbsp;&nbsp;<a href="" class="w3-hover-opacity">Privacy Policy</a>
+	</p>
+  </div>
+</div>
 
 
-
-
-<!-- Scripts-->
-<script>
-// Used to toggle the menu on smaller screens when clicking on the menu button
-function openNav() {
-    var x = document.getElementById("navSmall");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else { 
-        x.className = x.className.replace(" w3-show", "");
-    }
-}
-
-// Modal Image Gallery
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal01").style.display = "block";
-  var captionText = document.getElementById("caption");
-  captionText.innerHTML = element.alt;
-}
-</script>
+<!-- End HTML -->
+</html>

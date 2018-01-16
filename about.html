@@ -1,28 +1,39 @@
+<!-- God First -->
 <!DOCTYPE html>
-<!-- W3 standard tested goes here? -->
-<!-- look into licensing component to set site above par -->
+<!-- W3 standard tested goes here -->
+
+
+<!-- HTML Begins Here -->
 <html>
-<title>About Peace of Cake</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- Have to add all the SEO components up here -->
-
-<!-- External Styling -->
-<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
-<!-- Personal CSS Files-->
-<link rel="stylesheet" href="Assets/css/ThemesFile.css">
-<link rel="stylesheet" href="Assets/css/Style.css">
-<!-- Site Scripts -->
-<script src="Assets/javascript/js-scripts.js" type="text/javascript"></script>
 
 
-<!--Body Begins Here-->
-<body id="AboutPage">
+<!-- Head Section -->
+<head>
+  <title>About Peace of Cake</title>
+  <!-- Meta Tags -->
+  <meta charset="UTF-8">
+  <meta name="description" content="sentence about site for those googling to see">
+  <meta name="keywords" content="working on these">
+  <meta name="author" content="Dustin Ledbetter">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- External Styling -->
+  <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+  <!-- Personal CSS Files -->
+  <link rel="stylesheet" href="Assets/css/ThemesFile.css">
+  <link rel="stylesheet" href="Assets/css/Style.css">
+  <!-- Site Scripts -->
+  <script src="Assets/javascript/js-scripts.js" type="text/javascript"></script>
+</head>
+
+
+<!-- Body Begins Here -->
+<body id="aboutPage">
 
 
 <!-- Navbar -->
-<div class="w3-top">
+<div id="navBig" class="w3-top">
   <ul class="w3-navbar w3-theme-d2 w3-left-align">
     <li class="w3-hide-medium w3-hide-large w3-opennav w3-left">
       <a class="w3-hover-grey w3-theme-d1" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
@@ -54,28 +65,14 @@
 </div>
 
 
-<!-- Add a Background Color and Large Text to the Whole Page -->
-<div class="w3-sand w3-large">
+<!-- Page Content Begins Here (Add Background Color and Large Text to the Whole Page) -->
+<div id="background" class="w3-sand w3-large">
 
-
-<!-- Header with Image -->
-<header class="bgimg w3-display-container" id="home">
-  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
-    <span class="w3-tag w3-theme-d1">Cakes and Catering</span>
-  </div>
-  <div class="w3-display-middle w3-center">
-    <span class="w3-text-white" style="font-size:90px">Peace of Cake</span><!--need to make more responsive for mobile-->
-  </div>
-  <div class="w3-display-bottomright w3-center w3-padding-large">
-    <span class="w3-text-white">Sevierville, TN</span>
-  </div>
-</header>
-  
  
-<!-- About Container -->
-<div class="w3-container" id="about">
+<!-- History Container -->
+<div id="historyAboutPage" class="w3-container">
   <div class="w3-content" style="max-width:1500px">
-    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">Our Purpose</span></h5>
+    <h1 class="w3-center w3-padding-64"><span class="w3-tag w3-wide w3-theme-d2">Our History</span></h1>
     <p>The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     <p>In addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.</p>
     <div class="w3-panel w3-leftbar w3-light-grey">
@@ -87,50 +84,46 @@
 
  
 <!-- Team Section -->
-<div class="w3-container w3-padding-24" id="team">
-  <h3 class="w3-center">THE  WONDERFUL TEAM</h3>
-  <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+<div id="team" class="w3-container w3-padding-24">
+  <h3 class="w3-center"><span class="w3-tag w3-wide w3-theme-d2">THE  WONDERFUL TEAM</span></h3>
+  <div class="w3-row-padding" style="margin-top:64px">
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-card-2">
-        <img src="Assets/imgs/person_icon.png" alt="pic of person" style="width:100%">
+        <img src="Assets/imgs/person_icon.png" style="width:100%" alt="pic of person">
         <div class="w3-container">
           <h3>John Doe</h3>
           <p class="w3-opacity">CEO & Founder</p>
           <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-          <p><button class="w3-btn-block">Contact</button></p>
         </div>
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-card-2">
-        <img src="Assets/imgs/person_icon.png" alt="pic of person" style="width:100%">
+        <img src="Assets/imgs/person_icon.png" style="width:100%" alt="pic of person">
         <div class="w3-container">
           <h3>Jane Doe</h3>
           <p class="w3-opacity">Art Director</p>
           <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-          <p><button class="w3-btn-block">Contact</button></p>
         </div>
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-card-2">
-        <img src="Assets/imgs/person_icon.png" alt="pic of person" style="width:100%">
+        <img src="Assets/imgs/person_icon.png" style="width:100%" alt="pic of person">
         <div class="w3-container">
           <h3>Mike Ross</h3>
           <p class="w3-opacity">Web Designer</p>
           <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-          <p><button class="w3-btn-block">Contact</button></p>
         </div>
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-card-2">
-        <img src="Assets/imgs/person_icon.png" alt="pic of person" style="width:100%">
+        <img src="Assets/imgs/person_icon.png" style="width:100%" alt="pic of person">
         <div class="w3-container">
           <h3>Dan Star</h3>
           <p class="w3-opacity">Designer</p>
           <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-          <p><button class="w3-btn-block">Contact</button></p>
         </div>
       </div>
     </div>
@@ -138,10 +131,10 @@
 </div>
 
 
-<!-- Work Section -->
-<div class="w3-container" id="work">
-  <h3 class="w3-center">OUR WORK</h3>
-  <p class="w3-center w3-large">What we've done for people</p>
+<!-- Work Stats Section -->
+<div id="workStats" class="w3-container">
+  <h3 class="w3-center"><span class="w3-tag w3-wide w3-theme-d2">OUR WORK</h3>
+  <p class="w3-center w3-large">What we've done for people so far</p>
 
   <!-- Statistics Section -->
   <div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
@@ -163,8 +156,8 @@
     </div>
   </div>
 
-  <!-- First Row of Items to Display -->
-  <div class="w3-row-padding" style="margin-top:64px">
+  <!-- First Photo Grid -->
+  <div id="photoGridOneAboutPage" class="w3-row-padding" style="margin-top:64px">
     <div class="w3-col m3">
       <img src="Assets/imgs/pie1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="pic of a item served">
     </div>
@@ -179,8 +172,8 @@
     </div>
   </div>
   
-  <!-- Split for Second Row of Items to Display -->
-  <div class="w3-row-padding w3-section">
+  <!-- Second Photo Grid -->
+  <div id="photoGridTwoAboutPage" class="w3-row-padding w3-section">
     <div class="w3-col m3">
       <img src="Assets/imgs/pie1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="pic of a item served">
     </div>
@@ -196,7 +189,8 @@
   </div>
 </div>
 
-<!-- Modal for Full Size Images on Click-->
+
+<!-- Modal for Full Size Images on Click -->
 <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
   <span class="w3-closebtn w3-text-white w3-opacity w3-hover-opacity-off w3-xxlarge w3-container w3-display-topright" title="Close Modal Image">X</span>
   <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
@@ -215,7 +209,7 @@
  
  
 <!-- Footer -->
-<div class="w3-cell-row w3-theme-d2">
+<div id="footer" class="w3-cell-row w3-theme-d2">
   <div class="w3-container w3-cell w3-left w3-theme-d2">
     <p class="w3-cell-top">
 	<i class="fa fa-facebook-official w3-hover-opacity w3-xlarge"></i>
@@ -224,13 +218,16 @@
     <i class="fa fa-pinterest-p w3-hover-opacity w3-xlarge"></i>
     <i class="fa fa-twitter w3-hover-opacity w3-xlarge"></i>
     <i class="fa fa-linkedin w3-hover-opacity w3-xlarge"></i>
-	<br><a href="#Homepage" class="w3-hover-opacity">Return to Top</a>
+	<br><a href="#aboutPage" class="w3-hover-opacity">Return to Top</a>
 	</p>
   </div>
   <div class="w3-container w3-cell w3-right w3-theme-d2">
-  	<p class="w3-cell">Peace of Cake &copy; 2017 All Rights Reserved&nbsp;&nbsp;
+  	<br><p class="w3-cell">Peace of Cake &copy; 2018 All Rights Reserved&nbsp;&nbsp;
 	<br><a href="" class="w3-hover-opacity">Terms of Use</a>&nbsp;&nbsp;&nbsp;<a href="" class="w3-hover-opacity">Privacy Policy</a>
-	<br>Created by: <a href="https://www.linkedin.com/in/dustinledbetter/" class="w3-hover-opacity">Dustin Ledbetter</a>
 	</p>
   </div>
 </div>
+
+
+<!-- End HTML -->
+</html>

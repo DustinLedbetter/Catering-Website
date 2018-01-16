@@ -1,0 +1,112 @@
+Peace of Cake Catering Site
+//questions to answer and things to do sorted by page:
+
+
+// top and bottom of all pages:
+------------------------------
+*SEO meta description (what usually shows up in google search that you can read about site)
+   -should be a few sentences, but better if just one
+   -should be between 20-25 words.
+
+*SEO meta keywords
+   -5-10 best words for use in searches
+
+*W3 standard test (to be done once hosted online)
+
+*Add terms and privacy policy to pages
+
+*Create email for company and link to mine and toshas normal ones
+
+*Create facebook and other social media sites as needed. (figure out which we need; remove others at bottom)
+
+// index:
+--------
+*Need a very good banner
+
+*Need 3 pictures showing best of what offering
+
+*Need a "purpose" statement that tells what we stand for and why you do what you do
+
+*Need a quote by Tosha that gives idea of who she is (something about why PEACE of cake)
+
+*Need a photo of best item to be biggest item displayed or a collage?
+
+*Need to figure what occassions you do want on site...ie weeding, graduation, birthdays, etc.
+   -I have a few but need to figure exactly which to display as main points.
+
+*Need 3 pics for bottom to show more of what we offer
+
+*Need to write yummy descriptions of pictures we pic for the page
+
+
+//about:
+-------
+*Need a few paragraphs about history and why we're here
+
+*Need another quote from Tosha shows her motivation or enthusiasm
+
+*Need 4 pics of workers
+
+*Need to figure numbers for work done so far
+
+*Need 8 photos of items that have been made
+
+
+//services and venues:
+---------------------
+*Need to reword the top better (maybe redesign?)
+
+*Need 3 main types and good mix for other of what we can offer
+
+*Need  2 pics for each group (8 total)
+
+*Need descriptions for each group
+
+
+//menu ideas:
+-------------
+*Need to maybe redesign the top better
+
+*Need to figure out some options that are standard for types we chose
+
+*Need to make and add the pdfs of menus
+
+*Need to decide if like pdfs at bottom or top 
+
+*Need to decide if like descriptions under or just the items
+
+
+//gallery:
+--------
+*Need to maybe redesign the top better
+
+*Need to pick three best dishes to display (briefly describe)
+
+*Need to pick between middle grid style and bottom grid style
+
+*Can add as many pictures as can or need to on this page.  
+
+
+//testimonials:
+-------------
+*Need to figure numbers for work done so far (same as about page)
+
+*Need to get testimonials from all who can
+
+*Need to use highest ranking/most important for top section 
+
+*Need to decide which style option liked more of the four
+
+//pricing:
+--------
+*Ensure best options listed and sorted right
+
+*figure descriptions for each item...ingredients?
+
+
+//contact:
+---------
+*Need same size images for slideshow (thinking around 5)
+
+*Make sure info is good for contact form
+

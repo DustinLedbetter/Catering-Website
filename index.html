@@ -1,28 +1,39 @@
+<!-- God First -->
 <!DOCTYPE html>
-<!-- W3 standard tested goes here? -->
-<!-- look into licensing component to set site above par -->
-<html>
-<title>Peace of Cake Home</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- Have to add all the SEO components up here -->
+<!-- W3 standard tested goes here -->
 
-<!-- External Styling -->
-<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
-<!-- Personal CSS Files-->
-<link rel="stylesheet" href="Assets/css/ThemesFile.css">
-<link rel="stylesheet" href="Assets/css/Style.css">
-<!-- Site Scripts -->
-<script src="Assets/javascript/js-scripts.js" type="text/javascript"></script>
+
+<!-- HTML Begins Here -->
+<html>
+
+
+<!-- Head Section -->
+<head>
+  <title>Peace of Cake Catering Home</title>
+  <!-- Meta Tags -->
+  <meta charset="UTF-8">
+  <meta name="description" content="sentence about site for those googling to see">
+  <meta name="keywords" content="working on these">
+  <meta name="author" content="Dustin Ledbetter">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- External Styling -->
+  <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+  <!-- Personal CSS Files -->
+  <link rel="stylesheet" href="Assets/css/ThemesFile.css">
+  <link rel="stylesheet" href="Assets/css/Style.css">
+  <!-- Site Scripts -->
+  <script src="Assets/javascript/js-scripts.js" type="text/javascript"></script>
+</head>
 
 
 <!-- Body Begins Here -->
-<body id="HomePage">
+<body id="homePage">
 
 
 <!-- Navbar -->
-<div class="w3-top">
+<div id="navBig" class="w3-top">
   <ul class="w3-navbar w3-theme-d2 w3-left-align">
     <li class="w3-hide-medium w3-hide-large w3-opennav w3-left">
       <a class="w3-hover-grey w3-theme-d1" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
@@ -55,7 +66,7 @@
 
 
 <!-- Header with Image -->
-<header class="bgimg w3-display-container" id="home">
+<header id="homeHeader" class="bgimg w3-display-container">
   <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
     <span class="w3-tag w3-theme-d1">Cakes and Catering</span>
   </div>
@@ -68,11 +79,12 @@
 </header>
 
 
-<!-- Add a Background Color and Large Text to the Whole Page -->
-<div class="w3-sand w3-large">
+<!-- Page Content Begins Here (Add Background Color and Large Text to the Whole Page) -->
+<div id="background" class="w3-sand w3-large">
+
 
 <!-- First Photo Grid -->
-<div class="w3-padding-16">
+<div id="photoGridOneHomePage" class="w3-padding-16">
   <div class="w3-third w3-container w3-margin-bottom">
     <img src="Assets/imgs/cake1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="pic of a item served">
     <div class="w3-container w3-white">
@@ -98,9 +110,9 @@
   
 
 <!-- About Container -->
-<div class="w3-container" id="about">
+<div id="aboutHomePage" class="w3-container">
   <div class="w3-content" style="max-width:1500px">
-    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">Our Purpose</span></h5>
+    <h3 class="w3-center w3-padding-64"><span class="w3-tag w3-wide w3-theme-d2">Our Purpose</span></h3>
     <p>The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     <p>In addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.</p>
     <div class="w3-panel w3-leftbar w3-light-grey">
@@ -114,28 +126,24 @@
 </div>
 
 
-<!-- Testimonial Section <needed> -->
-
-
-<!-- Contact/Area Container -->
-<div class="w3-container" id="where" style="padding-bottom:32px;">
+<!-- Contact Container -->
+<div id="contactHomePage" class="w3-container" style="padding-bottom:32px;">
   <div class="w3-content" style="max-width:1500px">
     <p><span class="w3-tag w3-theme-d1">FYI!</span> We bake cakes for weddings, birthdays, or any other special occasions. We also offer catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
     <p><strong>Contact Us</strong> by phone 865-###-#### and email catering@catering.com, or you can send us a message here:</p>
     <form action="/action_page.php" target="_blank">
       <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name/Subject" required name="Name"></p>
-      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" name="Email"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email (Not required, but we will be unable to respond back without one)" name="Email"></p>
       <p><textarea class="w3-input w3-border" style="resize:none" placeholder="Message"required name="Message"></textarea></p>
-	  <p><input class="w3-check" type="checkbox">I want to be updated on specials!</p>
+	  <p><input class="w3-check" type="checkbox" checked>I want to be updated on specials!</p>
       <p><button class="w3-button w3-padding-16 w3-theme-d1" type="submit">SEND MESSAGE</button></p>
-
     </form>
   </div>
 </div>
 
 
 <!-- Second Photo Grid -->
-<div class="w3-row-padding">
+<div id="photoGridTwoHomePage" class="w3-row-padding">
   <div class="w3-third w3-container w3-margin-bottom">
     <img src="Assets/imgs/cake1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="pic of a item served">
     <div class="w3-container w3-white">
@@ -160,7 +168,7 @@
 </div>
   
   
-<!-- Modal for Full Size Images on Click-->
+<!-- Modal for Full Size Images on Click -->
 <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
   <span class="w3-closebtn w3-text-white w3-opacity w3-hover-opacity-off w3-xxlarge w3-container w3-display-topright" title="Close Modal Image">X</span>
   <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-48">
@@ -179,7 +187,7 @@
 
 
 <!-- Footer -->
-<div class="w3-cell-row w3-theme-d2">
+<div id="footer" class="w3-cell-row w3-theme-d2">
   <div class="w3-container w3-cell w3-left w3-theme-d2">
     <p class="w3-cell-top">
 	<i class="fa fa-facebook-official w3-hover-opacity w3-xlarge"></i>
@@ -188,13 +196,16 @@
     <i class="fa fa-pinterest-p w3-hover-opacity w3-xlarge"></i>
     <i class="fa fa-twitter w3-hover-opacity w3-xlarge"></i>
     <i class="fa fa-linkedin w3-hover-opacity w3-xlarge"></i>
-	<br><a href="#Homepage" class="w3-hover-opacity">Return to Top</a>
+	<br><a href="#homePage" class="w3-hover-opacity">Return to Top</a>
 	</p>
   </div>
   <div class="w3-container w3-cell w3-right w3-theme-d2">
-  	<p class="w3-cell">Peace of Cake &copy; 2017 All Rights Reserved&nbsp;&nbsp;
+  	<br><p class="w3-cell">Peace of Cake &copy; 2018 All Rights Reserved&nbsp;&nbsp;
 	<br><a href="" class="w3-hover-opacity">Terms of Use</a>&nbsp;&nbsp;&nbsp;<a href="" class="w3-hover-opacity">Privacy Policy</a>
-	<br>Created by: <a href="https://www.linkedin.com/in/dustinledbetter/" class="w3-hover-opacity">Dustin Ledbetter</a>
 	</p>
   </div>
 </div>
+
+
+<!-- End HTML -->
+</html>
