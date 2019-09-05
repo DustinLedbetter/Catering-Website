@@ -1,5 +1,5 @@
 Catering-Website
-This project wasa catering website for a client to use to advertise and sell the bakery goods she makes. 
+This project was a catering website for a client to use to advertise and sell the bakery goods she makes. 
 <br>
 I chose to code it using the new W3CSS language. It has proven to be a good choice and has been very fun to work with. My next step will be hosting it and adding features using other languages as well.
 <br><br>
